@@ -33,6 +33,7 @@ const Exchanges = () => {
                                 header={(
                                     <Row key={exchange.uuid}>
                                         <Col span={6}>
+                                            hi
                                             <Text><strong>{exchange.rank}.</strong></Text>
                                             <Avatar className="exchange-image" src={exchange.iconUrl} />
                                             <Text><strong>{exchange.name}</strong></Text>
